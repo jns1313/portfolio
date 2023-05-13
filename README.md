@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 
 This is my portfolio Github repository, built with React. It features a modern design, is mobile responsive, and showcases my projects and skills. Take a look around and feel free to contact me with any feedback or inquiries. Thank you for visiting!
 
