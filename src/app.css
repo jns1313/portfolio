@@ -1,0 +1,7 @@
+@charset "UTF-8";
+@import url(/home/earl/Työpöytä/Coding/Projects/portfolio/node_modules/animate.css/animate.css);
+@import url("https://fonts.googleapis.com/css2?family=MonteCarlo&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@200;300;400;500&display=swap");
+main h1 {
+  font-family: 'Playfair Display', serif;
+}
+/*# sourceMappingURL=app.css.map */

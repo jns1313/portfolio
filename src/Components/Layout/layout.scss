@@ -1,0 +1,103 @@
+.page {
+    padding: 3rem 5rem;
+    position: relative;
+
+    .tags {
+        font-family: 'MonteCarlo', cursive;
+        font-size: 1.5rem;
+        letter-spacing: 1.5px;
+        color: #FF5DB2;
+        position: absolute;
+        animation: fadeIn 1s 4s backwards;
+        opacity: 0.7;
+    }
+
+    .top-html {
+        top: 2rem;
+        left: 6rem;
+    }
+
+    .top-body {
+        top: 4rem;
+        left: 7.5rem;
+    }
+
+    .bottom-body {
+        top: 40rem;
+        left: 7.5rem;
+    }
+
+    .bottom-html {
+        top: 42rem;
+        left: 6rem;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .page {
+        padding: 3rem 3rem;
+
+        .top-html {
+            left: 4rem;
+        }
+
+        .top-body {
+            left: 5.5rem;
+        }
+
+        .bottom-body {
+            left: 5.5rem;
+        }
+
+        .bottom-html {
+            left: 4rem;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+
+    .page {
+        padding: 3rem 3rem;
+
+        .top-html {
+            left: 2.5rem;
+        }
+
+        .top-body {
+            left: 4rem;
+        }
+
+        .bottom-body {
+            left: 4rem;
+        }
+
+        .bottom-html {
+            left: 2.5rem;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .page {
+        padding: 3rem 0rem;
+
+        .top-html {
+            left: 0.5rem;
+        }
+
+        .top-body {
+            left: 1rem;
+        }
+
+        .bottom-body {
+            left: 1rem;
+        }
+
+        .bottom-html {
+            left: 0.5rem;
+        }
+    }
+}

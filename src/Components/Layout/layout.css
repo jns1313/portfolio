@@ -1,0 +1,90 @@
+.page {
+  padding: 3rem 5rem;
+  position: relative;
+}
+
+.page .tags {
+  font-family: 'MonteCarlo', cursive;
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+  color: #FF5DB2;
+  position: absolute;
+  -webkit-animation: fadeIn 1s 4s backwards;
+          animation: fadeIn 1s 4s backwards;
+  opacity: 0.7;
+}
+
+.page .top-html {
+  top: 2rem;
+  left: 6rem;
+}
+
+.page .top-body {
+  top: 4rem;
+  left: 7.5rem;
+}
+
+.page .bottom-body {
+  top: 40rem;
+  left: 7.5rem;
+}
+
+.page .bottom-html {
+  top: 42rem;
+  left: 6rem;
+}
+
+@media (max-width: 1200px) {
+  .page {
+    padding: 3rem 3rem;
+  }
+  .page .top-html {
+    left: 4rem;
+  }
+  .page .top-body {
+    left: 5.5rem;
+  }
+  .page .bottom-body {
+    left: 5.5rem;
+  }
+  .page .bottom-html {
+    left: 4rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .page {
+    padding: 3rem 3rem;
+  }
+  .page .top-html {
+    left: 2.5rem;
+  }
+  .page .top-body {
+    left: 4rem;
+  }
+  .page .bottom-body {
+    left: 4rem;
+  }
+  .page .bottom-html {
+    left: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 3rem 0rem;
+  }
+  .page .top-html {
+    left: 0.5rem;
+  }
+  .page .top-body {
+    left: 1rem;
+  }
+  .page .bottom-body {
+    left: 1rem;
+  }
+  .page .bottom-html {
+    left: 0.5rem;
+  }
+}
+/*# sourceMappingURL=layout.css.map */

@@ -1,0 +1,112 @@
+.about-section {
+  padding: 3rem 6rem;
+  position: relative;
+}
+
+.about-section .intro-title {
+  margin-top: 5rem;
+}
+
+.about-section .intro-title h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  color: #f5f5f5;
+  position: relative;
+}
+
+.about-section .intro-title h1::before {
+  content: '<h1>';
+  position: absolute;
+  font-size: 1.3rem;
+  top: -1.5rem;
+  left: -1rem;
+  font-family: 'MonteCarlo', cursive;
+  font-weight: 400;
+  color: #FF5DB2;
+  -webkit-animation: fadeIn 1s 3s backwards;
+          animation: fadeIn 1s 3s backwards;
+  opacity: 0.7;
+}
+
+.about-section .intro-title h1::after {
+  content: '</h1>';
+  position: absolute;
+  font-size: 1.3rem;
+  bottom: -2rem;
+  left: -1rem;
+  font-family: 'MonteCarlo', cursive;
+  font-weight: 400;
+  color: #FF5DB2;
+  -webkit-animation: fadeIn 1s 3s backwards;
+          animation: fadeIn 1s 3s backwards;
+  opacity: 0.7;
+}
+
+.about-section p {
+  margin-top: 4rem;
+  max-width: 40%;
+  font-family: 'Poppins', sans-serif;
+  color: #f5f5f5;
+  letter-spacing: 1px;
+  line-height: 2;
+  -webkit-animation: fadeIn 1s 3s backwards;
+          animation: fadeIn 1s 3s backwards;
+}
+
+.about-section h2 {
+  position: absolute;
+  top: 15rem;
+  right: 25rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  color: #f5f5f5;
+  -webkit-animation: fadeIn 1s 4s backwards;
+          animation: fadeIn 1s 4s backwards;
+}
+
+@media (max-width: 1400px) {
+  .about-section p {
+    margin-top: 2rem;
+  }
+  .about-section h2 {
+    right: 15rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about-section {
+    padding: 3rem 3rem;
+  }
+  .about-section p {
+    max-width: 50%;
+  }
+  .about-section h2 {
+    right: 10rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .about-section p {
+    max-width: 60%;
+  }
+  .about-section h2 {
+    right: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-section .intro-title h1 {
+    font-size: 2rem;
+  }
+  .about-section p {
+    font-size: 0.9rem;
+    max-width: 90%;
+  }
+  .about-section h2 {
+    display: none;
+  }
+}
+/*# sourceMappingURL=about.css.map */

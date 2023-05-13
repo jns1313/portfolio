@@ -1,0 +1,28 @@
+@import '../node_modules/animate.css/animate.css';
+
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@200;300;400;500&display=swap');
+@import 'loaders.css/src/animations/line-scale.scss';
+
+main {
+    overflow-x: hidden;
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+    }
+}
+
+.loader-active {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    // margin: auto;
+    width: 4rem;
+    height: 4rem;
+    animation: fadeOut 1s 1s;
+    animation-fill-mode: forwards;
+}
+    
+
+

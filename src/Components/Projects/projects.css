@@ -1,0 +1,206 @@
+.projects-section {
+  padding: 3rem 6rem;
+}
+
+.projects-section .intro-title {
+  margin-top: 5rem;
+}
+
+.projects-section .intro-title h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  color: #f5f5f5;
+  position: relative;
+}
+
+.projects-section .intro-title h1::before {
+  content: '<h1>';
+  position: absolute;
+  font-size: 1.3rem;
+  top: -1.5rem;
+  left: -1rem;
+  font-family: 'MonteCarlo', cursive;
+  font-weight: 400;
+  color: #FF5DB2;
+  -webkit-animation: fadeIn 1s 3s backwards;
+          animation: fadeIn 1s 3s backwards;
+  opacity: 0.7;
+}
+
+.projects-section .intro-title h1::after {
+  content: '</h1>';
+  position: absolute;
+  font-size: 1.3rem;
+  bottom: -2rem;
+  left: -1rem;
+  font-family: 'MonteCarlo', cursive;
+  font-weight: 400;
+  color: #FF5DB2;
+  -webkit-animation: fadeIn 1s 3s backwards;
+          animation: fadeIn 1s 3s backwards;
+  opacity: 0.7;
+}
+
+.projects-section .projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+
+.projects-section .projects .mobile-card {
+  display: none;
+}
+
+.projects-section .projects .project-card {
+  height: 15rem;
+  width: 30rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(35, 37, 49, 0.5)), to(rgba(15, 15, 24, 0.5)));
+  background: linear-gradient(180deg, rgba(35, 37, 49, 0.5), rgba(15, 15, 24, 0.5));
+  padding: 2rem 1rem;
+  margin: 0 1rem;
+  border-radius: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 0.7;
+  -webkit-animation: fadeIn 1s 3s backwards;
+          animation: fadeIn 1s 3s backwards;
+}
+
+.projects-section .projects .project-card:hover {
+  opacity: 1;
+}
+
+.projects-section .projects .project-card .img-container {
+  height: 12rem;
+  width: 10rem;
+}
+
+.projects-section .projects .project-card .img-container img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10%;
+}
+
+.projects-section .projects .project-card .project-info {
+  margin-left: 1rem;
+  position: relative;
+}
+
+.projects-section .projects .project-card .project-info h4 {
+  font-size: 1.1rem;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+  color: #f5f5f5;
+}
+
+.projects-section .projects .project-card .project-info a {
+  position: absolute;
+  bottom: 3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FF5DB2;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+  .projects-section {
+    padding: 3rem 3rem;
+  }
+  .projects-section .intro-title h1 {
+    font-size: 2.5rem;
+  }
+  .projects-section .intro-title h1::before {
+    left: 0;
+  }
+  .projects-section .intro-title h1::after {
+    left: 0;
+  }
+  .projects-section .projects .project-card {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 991px) {
+  .projects-section .intro-title h1 {
+    font-size: 2.5rem;
+  }
+  .projects-section .projects {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+  }
+  .projects-section .projects .project-card {
+    height: 12rem;
+    width: 25rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+  .projects-section .projects .project-card .img-container {
+    height: 10rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects-section .intro-title h1 {
+    font-size: 2rem;
+  }
+  .projects-section .projects .project-card {
+    height: 10rem;
+    width: 20rem;
+  }
+  .projects-section .projects .project-card .img-container {
+    height: 8rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .projects-section .projects .project-card {
+    display: none;
+  }
+  .projects-section .projects .mobile-card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 11rem;
+    width: 11rem;
+    margin: 1.5rem 0;
+  }
+  .projects-section .projects .mobile-card img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .projects-section .projects .mobile-card a {
+    position: absolute;
+    top: 111%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+            transform: translateY(-50%) translateX(-50%);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+}
+/*# sourceMappingURL=projects.css.map */
